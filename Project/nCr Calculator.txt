@@ -41,7 +41,7 @@ int main()
 
 		// Formula used: (n)!/ (r! * (n-r)!)
 		// = (n+r)! * pow((r! * (n-r)!), -1) 
-		// Using FERMAT's LITTLE THEOREM (Google it!) 
+		// Using FERMAT's LITTLE THEOREM 
 		// = (fact[n]%m * pow((r! * (n-r)!), m - 2) % m) % m
 		// = (fact[n]%m * fastexp((fact[r] * fact[n-r])%m, m - 2)%m)%m
 
